@@ -1,4 +1,6 @@
 import React from "react";
+import Instructions from "./Instructions"
+import Leaderboards from "./Leaderboards"
 import { Link } from "react-router-dom";
 
 
@@ -7,16 +9,16 @@ export default () => (
       <div className = "row d-flex">
           <div className = "col-6 d-flex justify-content-center">
                 <div className = "leaderboard">
-                    Leaderboards
-                    {/* <Leaderboards /> */}
+                    <Leaderboards />
                 </div>
           </div>
           <div className = "col-6 d-flex justify-content-center flex-column">
                 <div className = "instructions">
-                    Instructions
-                    {/* <Instructions /> */}
+                    <Instructions />
                 </div>
-                <div className = "btn btn-success">Play!</div>
+                <Link to="/game" className="btn btn-success">
+                    Play!
+                </Link>
           </div>
       </div>
   </div>

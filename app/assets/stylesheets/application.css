@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+ .instructions-img {
+    text-align: center;
+ }
+
+ .leaderboards-container {
+     border: 1px solid black;
+ }
+
+ .waldo-map-img {
+    width: 100%;
+    height: 100%;
+ }
+
+ .game-navbar {
+     position: sticky;
+     top: 0;
+ }
+
+ 
